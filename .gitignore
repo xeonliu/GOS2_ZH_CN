@@ -1,0 +1,8 @@
+chs
+jpn
+eng
+output
+*.THFS
+*.txt
+*.json
+__pycache__
