@@ -48,8 +48,3 @@ struct THFS_Entry {
     uint32_t rawSize;      // 0x3C: 原始大小
 }; // 文章指出条目占0x40字节
 ```
-
-···
-python ./hello.py 'e:/PSP_GAME/USRDIR/SCRIPT.THFS' -f chs_translated/ -o 'd:/EmulatorROM/gos/PSP_GAME/USRDIR/SCRIPT.THFS' -m repack
-
-···

@@ -58,15 +58,7 @@ for filename in os.listdir(input_folder_path):
                 # 将转换后的字符串编码为二进制
                 converted_bytes = converted_text.encode("cp932", errors="error")
                 # 使用正则表达式替换原始内容，确保只替换双引号包裹的内容
-                # content = re.sub(rb'(?<=\")' + re.escape(match) + rb'(?=\")', converted_bytes, content)
-                print(f"翻译: {translation}")
-                print(f"转换: {converted_text}")
-                escaped_match = b''.join(
-                    f'\\x{b:02x}'.encode('latin-1')  # 先格式化为字符串，再编码为字节
-                    for b in match
-                )
-                pattern = rb'(?<=")' + escaped_match + rb'(?=")'
-                content = re.sub(pattern, converted_bytes, content)
+                content = re.sub(rb'(?<=\")' + re.escape(match) + rb'(?=\")', converted_bytes, content)
             else:
                 print(f"未找到翻译: {repr(text)}")
                 text = text.replace(" ", "")
