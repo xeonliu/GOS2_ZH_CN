@@ -12,8 +12,8 @@ from pathlib import Path
 from typing import Optional
 from PIL import Image, ImageDraw, ImageFont
 
-CANVAS_W, CANVAS_H = 480, 16
-DEFAULT_FONT_SIZE = 14
+CANVAS_W, CANVAS_H = 480, 54
+DEFAULT_FONT_SIZE = 16
 MIN_FONT_SIZE = 8
 TEXT_COLOR = (255, 255, 255, 255)
 BG_COLOR = (0, 0, 0, 255)
@@ -61,7 +61,7 @@ def render_text(text: str, font_path: Optional[Path], font_size: Optional[int] =
     else:
         x = (CANVAS_W - w) // 2
     
-    y = -2  # align to top
+    y = 0  # align to top
     draw.text((x, y), text, font=font, fill=TEXT_COLOR)
     return im
 

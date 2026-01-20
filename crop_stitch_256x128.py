@@ -1,10 +1,10 @@
+#!/usr/bin/env python3
 """
 Docstring for crop_stitch_256x128
 14X14 Font
 480 Width
 """
 
-#!/usr/bin/env python3
 
 import argparse
 import sys
@@ -16,7 +16,7 @@ from PIL import Image
 SOURCE_W, SOURCE_H = 256, 128
 BLOCK_H = 54  # height of each stripe to keep
 OUTPUT_W, OUTPUT_H = 512, BLOCK_H * 2  # stitched width/height (108)
-FINAL_W, FINAL_H = 480, 16  # final crop after stitching (forward mode)
+FINAL_W, FINAL_H = 480, 54  # final crop after stitching (forward mode)
 
 
 def iter_inputs(path: Path) -> Iterable[Path]:
@@ -69,10 +69,13 @@ def process_image(src: Path, dst: Path, *, mode: str, force: bool = False, verbo
                 left = im.crop((0, 0, SOURCE_W, BLOCK_H))
                 right = im.crop((SOURCE_W, 0, OUTPUT_W, BLOCK_H))
 
-                canvas = Image.new(target_mode, (SOURCE_W, SOURCE_H))
-                canvas.paste(left.convert(target_mode), (0, 0))
-                canvas.paste(right.convert(target_mode), (0, BLOCK_H))
-
+                # Create black background and composite images onto it
+                canvas = Image.new('RGBA', (SOURCE_W, SOURCE_H), (0, 0, 0, 255))
+                canvas.paste(left.convert('RGBA'), (0, 0), left.convert('RGBA') if left.mode == 'RGBA' else None)
+                canvas.paste(right.convert('RGBA'), (0, BLOCK_H), right.convert('RGBA') if right.mode == 'RGBA' else None)
+                # Convert to target mode (removes alpha if needed)
+                canvas = canvas.convert(target_mode)
+                
             dst.parent.mkdir(parents=True, exist_ok=True)
             canvas.save(dst)
         if verbose:

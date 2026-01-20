@@ -11,6 +11,7 @@ import argparse
 import base64
 import json
 import mimetypes
+import os
 import sys
 import time
 from pathlib import Path
@@ -166,7 +167,7 @@ def main() -> int:
     parser.add_argument("-v", "--verbose", action="store_true", help="Verbose logs")
     args = parser.parse_args()
 
-    api_key = args.api_key or (sys.environ.get("OPENAI_API_KEY"))
+    api_key = args.api_key or os.environ.get("OPENAI_API_KEY")
     if not api_key:
         print("Error: API key not provided (set --api-key or OPENAI_API_KEY)", file=sys.stderr)
         return 1
