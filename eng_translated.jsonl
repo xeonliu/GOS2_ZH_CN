@@ -7,10 +7,10 @@
 {"file": "a11007.png", "text": "Sorry...", "error": null, "translation": "对不起..."}
 {"file": "a11008.png", "text": "Uhh, well...", "error": null, "translation": "呃，那个..."}
 {"file": "a11009.png", "text": "Don't hide your head and leave your butt out... Or so.", "error": null, "translation": "别光顾着藏头不顾腚啊..."}
-{"file": "a11010.png", "text": "Vielen Dank!\nThanks a lot!", "error": null, "translation": "非常感谢！"}
-{"file": "a21001.png", "text": "Guten Morgen!\nGood morning!", "error": null, "translation": "早安！早上好！"}
+{"file": "a11010.png", "text": "Vielen Dank!\nThanks a lot!", "error": null, "translation": "非常感谢！\nVielen Dank!"}
+{"file": "a21001.png", "text": "Guten Morgen!\nGood morning!", "error": null, "translation": "早上好！\nGuten Morgen!"}
 {"file": "a21002.png", "text": "If you go in there, the police will get mad at you.", "error": null, "translation": "如果你进去的话，警察会对你发火的。"}
-{"file": "a21003.png", "text": "Der Wurfel ist gefallen.\nThe die is cast.", "error": null, "translation": "木已成舟。大局已定。"}
+{"file": "a21003.png", "text": "Der Wurfel ist gefallen.\nThe die is cast.", "error": null, "translation": "木已成舟。\nDer Würfel ist gefallen."}
 {"file": "a21004.png", "text": "With all this physical evidence,\nand they still call it \"a mysterious moving object.\"", "error": null, "translation": "明明有这么多物证，他们却还称之为“神秘移动物体”。"}
 {"file": "a21005.png", "text": "What's with the public security in this country!?", "error": null, "translation": "这个国家的公安系统是怎么回事！？"}
 {"file": "a21006.png", "text": "I'll be late, I'm going ahead.", "error": null, "translation": "我要迟到了，先走一步。"}
@@ -172,7 +172,7 @@
 {"file": "a22b033.png", "text": "That's going too far, Asuka.", "error": null, "translation": "明日香，你说得太过分了。"}
 {"file": "a22b034.png", "text": "Hey, wanna play rock-paper-scissors?", "error": null, "translation": "喂，要不要玩猜拳？"}
 {"file": "a22b035.png", "text": "Ehh?", "error": null, "translation": "诶——？"}
-{"file": "a22b036.png", "text": "If you win, I'll buy you a brand new W-Walkman.", "error": null, "translation": "要是你赢了，我就给你买全新的W-Walkman哦。"}
+{"file": "a22b036.png", "text": "If you win, I'll buy you a brand new W-Walkman.", "error": null, "translation": "要是你赢了，我就给你买全新的随身听哦。"}
 {"file": "a22b037.png", "text": "Eh, really!?", "error": null, "translation": "诶、真的假的！？"}
 {"file": "a22b038.png", "text": "Here we go.", "error": null, "translation": "要开始咯。"}
 {"file": "a22b039.png", "text": "Rock! Paper! ...", "error": null, "translation": "石头！剪刀！..."}
@@ -787,7 +787,7 @@
 {"file": "a27c027.png", "text": "Well, that's...", "error": null, "translation": "这个嘛..."}
 {"file": "a27c028.png", "text": "And Shinji, you're so stupid too.", "error": null, "translation": "还有真嗣，你也真是够迟钝的。"}
 {"file": "a27c029.png", "text": "There's no way a girl who just transferred here\nwould just suddenly ask you out on a date.", "error": null, "translation": "怎么可能有刚转学来的女生\n会突然约你出去约会啊。"}
-{"file": "a27c030.png", "text": "**********", "error": null, "translation": "**********"}
+{"file": "a27c030.png", "text": "**********", "error": null, "translation": "…………"}
 {"file": "a27c031.png", "text": "Is that true?", "error": null, "translation": "那是真的吗？"}
 {"file": "a27c032.png", "text": "It's not!", "error": null, "translation": "才不是！"}
 {"file": "a27c033.png", "text": "Shinji, you idiot!\nI don't care if you get yourself killed.", "error": null, "translation": "笨蛋真嗣！\n你就算死在外面也跟我没关系。"}
@@ -1009,7 +1009,7 @@
 {"file": "a28162.png", "text": "\"What happens twice, happens thrice,\" they say.", "error": null, "translation": "不是还有'有二必有三'这种说法吗？"}
 {"file": "a28163.png", "text": "Well then, shall we eat?", "error": null, "translation": "那么，我们开动吧？"}
 {"file": "a28164.png", "text": "Let's eat!", "error": null, "translation": "开动吧！"}
-{"file": "a28165.png", "text": "**********", "error": null, "translation": "**********"}
+{"file": "a28165.png", "text": "**********", "error": null, "translation": "…………"}
 {"file": "a28166.png", "text": "Guests first, please.", "error": null, "translation": "请客人先来。"}
 {"file": "a28167.png", "text": "Uh, I'll try it first.", "error": null, "translation": "呃，我先试试看。"}
 {"file": "a28168.png", "text": "You can't!", "error": null, "translation": "不行！"}
@@ -2923,7 +2923,7 @@
 {"file": "ja0431.png", "text": "Wha-?", "error": null, "translation": "诶——？"}
 {"file": "ja0432.png", "text": "The juice is very tasty.", "error": null, "translation": "这果汁味道真不错呢。"}
 {"file": "ja0433.png", "text": "Don't tell my father. I'll be more careful from now on.", "error": null, "translation": "别告诉我父亲...我以后会注意的。"}
-{"file": "ja0434.png", "text": "**********", "error": null, "translation": "**********"}
+{"file": "ja0434.png", "text": "**********", "error": null, "translation": "…………"}
 {"file": "ja0435.png", "text": "Are you listening?", "error": null, "translation": "你在听吗？"}
 {"file": "ja0436.png", "text": "Oh yeah, these are on your treat.", "error": null, "translation": "啊对了，这些算你请客哦。"}
 {"file": "ja0437.png", "text": "Huh?", "error": null, "translation": "呃？"}
@@ -3001,7 +3001,7 @@
 {"file": "ja0522.png", "text": "Stop messing around.", "error": null, "translation": "别闹了。"}
 {"file": "ja0523.png", "text": "...What do you think about me, Asuka?", "error": null, "translation": "...明日香，你对我有什么看法？"}
 {"file": "ja0524.png", "text": "Are you making me say it?", "error": null, "translation": "非要让我亲口说出来吗？"}
-{"file": "ja0525.png", "text": "**********", "error": null, "translation": "**********"}
+{"file": "ja0525.png", "text": "**********", "error": null, "translation": "…………"}
 {"file": "ja0526.png", "text": "I won't say I love you.", "error": null, "translation": "我才不会说我爱你。"}
 {"file": "ja0527.png", "text": "That's not what I asked.\nYou're just overconfident, Asuka.", "error": null, "translation": "我问的不是这个。\n你只是太自以为是了，明日香。"}
 {"file": "ja0528.png", "text": "You're just one of many men, Shinji,", "error": null, "translation": "你不过是众多男人中的一个，真嗣，"}
@@ -3324,7 +3324,7 @@
 {"file": "jc0915.png", "text": "What is it?", "error": null, "translation": "什么事？"}
 {"file": "jc0916.png", "text": "Are you going to stop piloting Eva now?", "error": null, "translation": "你现在不再驾驶EVA了吗？"}
 {"file": "jc0917.png", "text": "Right now, I'm doing my best, day by day.", "error": null, "translation": "现在的我啊，正在脚踏实地地努力生活着。"}
-{"file": "jc0918.png", "text": "**********", "error": null, "translation": "**********"}
+{"file": "jc0918.png", "text": "**********", "error": null, "translation": "…………"}
 {"file": "jc0919.png", "text": "But, when the time comes to pilot again,\nI might find happiness doing it.", "error": null, "translation": "不过等到下次需要驾驶的时候\n说不定能在战斗中找到幸福呢"}
 {"file": "jc0920.png", "text": "But, when the time comes to pilot again,\nI might find happiness doing it.", "error": null, "translation": "不过等到下次需要驾驶的时候\n说不定能在战斗中找到幸福呢"}
 {"file": "jc0921.png", "text": "Let's meet again someday!\nStay healthy, you two!", "error": null, "translation": "后会有期啦！\n你们两个都要保重身体哦！"}
