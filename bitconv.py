@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import struct
+
 def str_encode(data, pos, value, strsz, encoding='ascii', terminator=b'\x00'):
     try:
         bytedata = value.encode(encoding)
@@ -42,7 +44,20 @@ def str_decode(data, pos, strsz, encoding='ascii', terminator=b'\x00'):
 
 def int_decode(data, pos, intsz=4, byteorder='little'):
     try:
-        value = int.from_bytes(data[pos:pos+intsz], byteorder=byteorder)
+        fmt = '<' if byteorder == 'little' else '>'
+        if intsz == 1:
+            fmt += 'B'
+        elif intsz == 2:
+            fmt += 'H'
+        elif intsz == 4:
+            fmt += 'I'
+        elif intsz == 8:
+            fmt += 'Q'
+        else:
+            # Fallback for non-standard sizes
+            value = int.from_bytes(data[pos:pos+intsz], byteorder=byteorder)
+            return value, pos + intsz
+        value = struct.unpack_from(fmt, data, pos)[0]
         return value, pos + intsz
-    except IndexError:
+    except (struct.error, IndexError):
         return None, pos + intsz
