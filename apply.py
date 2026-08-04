@@ -33,7 +33,7 @@ for filename in os.listdir(input_folder_path):
         content = file.read()
         
         # 使用正则表达式匹配双引号包裹的内容
-        matches = re.findall(rb'"(.+?)"', content, re.DOTALL)
+        matches = re.findall(rb'"([^"\r\n]+)"', content)
         
         # 替换匹配到的内容
         for match in matches:
